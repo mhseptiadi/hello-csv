@@ -1,7 +1,7 @@
 {
   "name": "hello-csv",
   "version": "1.0.0",
-  "description": "",
+  "description": "The backlog is as folows:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,19 @@
   "dependencies": {
     "async": "^1.5.2",
     "bluebird": "^3.2.2",
-    "csv-parse": "^1.0.1",
+    "csv-parse": "^1.1.0",
     "debug": "^2.2.0",
-    "mock-aws-s3": "^2.1.0"
-  }
+    "jscs": "^3.0.3",
+    "mock-aws-s3": "^2.2.0",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HOOQsters/hello-csv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HOOQsters/hello-csv/issues"
+  },
+  "homepage": "https://github.com/HOOQsters/hello-csv#readme"
 }

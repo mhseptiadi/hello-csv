@@ -14,7 +14,7 @@ function surprise(name) {
 }
 
 // simulates sending sms
-exports.sendSms = function(data, callback) {
+exports.sendSms = function (data, callback) {
 
     setTimeout(() => {
         debug(`sending out sms: ${JSON.stringify(data)}`);
@@ -26,7 +26,7 @@ exports.sendSms = function(data, callback) {
 };
 
 // simulates logging to s3
-exports.logToS3 = function(data, callback) {
+exports.logToS3 = function (data, callback) {
 
     setTimeout(() => {
         debug(`putting data to S3: ${JSON.stringify(data)}`);

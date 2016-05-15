@@ -18,6 +18,7 @@ function naive() {
                 let line = parsed[index];
 
                 // FIXME: Put your transformation here
+                line[12] = line[0] + ' ' + line[1];
 
                 if (index > 0) {
                     debug(`sending data index: ${index - 1}`);
